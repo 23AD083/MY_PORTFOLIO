@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naviya | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div>
+                <div class="logo"><span>Naviya</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active" data-section="home"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link" data-section="about"><i class="fas fa-user"></i> <span>About</span></a></li>
+                    <li><a href="#services" class="nav-link" data-section="services"><i class="fas fa-cog"></i> <span>Services</span></a></li>
+                    <li><a href="#portfolio" class="nav-link" data-section="portfolio"><i class="fas fa-briefcase"></i> <span>Portfolio</span></a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="active">
+                <div class="home-content">
+                    <div class="home-text">
+                        <p class="greeting scroll-animate">Hello, my name is</p>
+                        <div class="typing-container scroll-animate-scale">
+                            <h1 id="typing-text" class="name typing-text"></h1>
+                            <span class="cursor">|</span>
+                        </div>
+                        <h2 class="title scroll-animate">I'm a Full Stack Developer / AI Engineer</h2>
+                        <p class="bio scroll-animate">
+                            Passionate developer with expertise in MERN stack, AI/ML, and MLOps. 
+                            I create innovative solutions that bridge the gap between cutting-edge 
+                            technology and real-world applications. Currently pursuing B.Tech in 
+                            AI & Data Science with hands-on experience in multiple internships.
+                        </p>
+                        <div class="home-buttons scroll-animate">
+                            <a href="#" class="btn btn-primary" id="downloadCV">
+                                <i class="fas fa-download"></i> Download CV
+                            </a>
+                            <a href="#contact" class="btn btn-secondary nav-link" data-section="contact">
+                                <i class="fas fa-envelope"></i> Contact Me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-image scroll-animate-right">
+                        <img src="me professional.jpg" alt="Naviya Dharshini" class="profile-img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about">
+                <h2 class="section-title scroll-animate">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text scroll-animate-left">
+                        <p>
+                            I'm a passionate developer currently pursuing B.Tech in Artificial Intelligence 
+                            and Data Science at Sri Eshwar College of Engineering. With a CGPA of 7.66, 
+                            I've built a strong foundation in both theoretical concepts and practical applications.
+                        </p>
+                        <p>
+                            My expertise spans across full-stack web development with MERN stack, 
+                            machine learning, deep learning, and MLOps. I've worked on multiple projects 
+                            that integrate AI with web applications, creating innovative solutions for 
+                            real-world problems.
+                        </p>
+                        <div class="skills">
+                            <span class="skill scroll-animate">Java</span>
+                            <span class="skill scroll-animate">Python</span>
+                            <span class="skill scroll-animate">JavaScript</span>
+                            <span class="skill scroll-animate">React.js</span>
+                            <span class="skill scroll-animate">Node.js</span>
+                            <span class="skill scroll-animate">Express.js</span>
+                            <span class="skill scroll-animate">MongoDB</span>
+                            <span class="skill scroll-animate">TensorFlow</span>
+                            <span class="skill scroll-animate">MLOps</span>
+                            <span class="skill scroll-animate">Docker</span>
+                            <span class="skill scroll-animate">AWS</span>
+                            <span class="skill scroll-animate">Data Structures</span>
+                        </div>
+                    </div>
+                    <div class="about-details scroll-animate-right">
+                        <div class="education">
+                            <h3>Education</h3>
+                            <div class="timeline">
+                                <div class="timeline-item scroll-animate">
+                                    <div class="timeline-date">2023-2027</div>
+                                    <div class="timeline-title">B.Tech (AI & Data Science)</div>
+                                    <div class="timeline-subtitle">Sri Eshwar College of Engineering | CGPA: 7.66</div>
+                                </div>
+                                <div class="timeline-item scroll-animate">
+                                    <div class="timeline-date">2022-2023</div>
+                                    <div class="timeline-title">HSC</div>
+                                    <div class="timeline-subtitle">Holy Innocents High School | 77.7%</div>
+                                </div>
+                                <div class="timeline-item scroll-animate">
+                                    <div class="timeline-date">2019-2020</div>
+                                    <div class="timeline-title">SSLC</div>
+                                    <div class="timeline-subtitle">Holy Innocents High School</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience">
+                            <h3>Experience</h3>
+                            <div class="timeline">
+                                <div class="timeline-item scroll-animate">
+                                    <div class="timeline-date">2025</div>
+                                    <div class="timeline-title">DSA Intern</div>
+                                    <div class="timeline-subtitle">Solving algorithmic problems with focus on optimization</div>
+                                </div>
+                                <div class="timeline-item scroll-animate">
+                                    <div class="timeline-date">2025</div>
+                                    <div class="timeline-title">MLOps Intern</div>
+                                    <div class="timeline-subtitle">CodeBoosters Tech | Built ML pipelines with Docker & CI/CD</div>
+                                </div>
+                                <div class="timeline-item scroll-animate">
+                                    <div class="timeline-date">2025</div>
+                                    <div class="timeline-title">MERN Stack Developer</div>
+                                    <div class="timeline-subtitle">Better Tomorrow | Developed full-stack apps with React & Node.js</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services">
+                <h2 class="section-title scroll-animate">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service-title">Full Stack Development</h3>
+                        <p>Building responsive and scalable web applications using MERN stack (MongoDB, Express.js, React.js, Node.js).</p>
+                    </div>
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="service-title">AI & Machine Learning</h3>
+                        <p>Developing intelligent solutions with Python, TensorFlow, and scikit-learn for predictive modeling and data analysis.</p>
+                    </div>
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="service-title">MLOps Engineering</h3>
+                        <p>Implementing end-to-end ML pipelines with Docker, CI/CD, and monitoring for production-ready AI systems.</p>
+                    </div>
+                    <div class="service-card scroll-animate">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="service-title">Data Engineering</h3>
+                        <p>Designing and managing data pipelines, ETL processes, and databases for efficient data processing and storage.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio">
+                <h2 class="section-title scroll-animate">My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item scroll-animate">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Waste Management Platform" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Intelligent Waste Logistics Platform</h3>
+                            <p>A smart waste management system with real-time tracking, AI-powered insights, and dynamic dashboards.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">AI</span>
+                            </div>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item scroll-animate">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1190&q=80" alt="LLM Chatbot" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">LLM Integrated Gemini API Chatbot</h3>
+                            <p>A full-stack conversational AI chatbot leveraging Gemini LLM API with contextual memory and token optimization.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Gemini API</span>
+                                <span class="tech-tag">JWT</span>
+                            </div>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item scroll-animate">
+                        <img src="https://images.unsplash.com/photo-1597848212624-e6d4bd7e1e92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80" alt="Leaf Disease Classifier" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Leaf Disease Classifier</h3>
+                            <p>A CNN-based plant disease classifier using TensorFlow with real-time Flask API for precision agriculture.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">CNN</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">OpenCV</span>
+                            </div>
+                            <a href="#" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2 class="section-title scroll-animate">Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info scroll-animate-left">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+91 9363625699</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>naviyadharshini33@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Coimbatore, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div>
+                                <h3>Website</h3>
+                                <p>naviya-portfolio.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form scroll-animate-right">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Enter subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <div class="theme-color color-red" data-color="#ff4757"></div>
+        <div class="theme-color color-orange" data-color="#ffa502"></div>
+        <div class="theme-color color-green" data-color="#2ed573"></div>
+        <div class="theme-color color-blue" data-color="#1e90ff"></div>
+        <div class="theme-color color-pink" data-color="#ff6b81"></div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" title="Toggle Dark/Light Mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
